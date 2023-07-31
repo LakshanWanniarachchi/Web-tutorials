@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title> </title>
+
+    <script>
+      function x() {
+        r = parseFloat(prompt("Enter radious", ""));
+        cal = (22 / 7) * r * r;
+
+        document.getElementById("calid").innerHTML = cal;
+      }
+    </script>
+  </head>
+
+  <body>
+    <p>Circel area is :</p>
+    <p id="calid"></p>
+    <br />
+    <input type="button" name="Cal" value="Cal" onclick="x()" />
+  </body>
+</html>

@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <style>
+        .Fx{        
+          margin:auto;
+          display: flex;
+          justify-content:center;          
+        }
+     </style>
+    </head>
+<body>
+        
+<div class="Fx">
+
+
+<form name="regForm" action="Welcome.html" method="post">
+
+<fieldset style="border-color:cornflowerblue">
+    <h1>Registration Form</h1>
+<table align="center">
+
+<tr>
+<td><label for="fname">First Name</label></td>
+<td><input id="fnmae" name="name" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="lname">Last Name </label></td>
+<td><input id="lname" name="name" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="mobile">Moblie Number </label></td>
+<td><input id="mobile" name="course" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="gender">Gender </label></td>
+<td><input type="radio" id="female" name="gender" required>Female
+<input type="radio" id="male" name="gender" required>Male</td>
+</tr>
+
+<tr>
+<td><label for="email">Email</label></td>
+<td><input id="email" name="email" type="text"></td>
+</tr>
+
+<tr>
+<td><label for="music">Favourite Music</label></td>
+<td> 
+    <input type="checkbox" id="pop" name="music" required>
+    <label for="pop">POP</label>
+    <input type="checkbox" id="rock" name="music" required>
+    <label for="rock">Rock</label>
+    <input type="checkbox" id="other" name="music" required>
+    <label for="other">Other</label>
+</tr>
+
+<tr>
+<td><label for="addtional">Additional Detail</label></td>
+<td> <textarea id="additional" name="additional" rows="3"></textarea></td>
+</tr>
+    
+</table>
+
+ <input type="checkbox" name="agree" id="agree" required>
+ <label for="agree">I agree to the terms and condition</label>
+
+
+<table>
+    <tr>
+    <td><input name="Submit" type="Submit" value="Submit"></td>
+        <td> &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    <td><input name="Reset" type="Reset" value="Reset"></td>
+    </tr>
+</table>
+    </fieldset>
+            
+</form>
+    
+</div>
+</body>
+</html>
+
+
+
+02.
+<html>
+
+<head>    
+    <style>
+        .Fx
+        {        
+        margin:auto;
+        display:flex;       
+        justify-content:center;
+        }
+    </style>
+</head>    
+
+<body>
+    <div class="Fx">
+<form name="carReg" action="Welcome.html" method="post">
+<fieldset>
+    
+<legend>Car Registration</legend>
+    
+<table id="t1">
+    <tr>
+    <td><label for="name">Owner Name</label></td>
+    <td><input type="text" id="name" name="name" placeholder="Owner Name"></td>
+    </tr>
+    
+    <tr>
+    <td><label for="email">Email</label></td>
+    <td><input type="email" id="email" name="email" placeholder="Email"></td></tr>
+    
+    <tr>
+    <td><label for="pn">Phone<br>number</label></td>
+    <td><input type="number" id="pn" name="pn" placeholder="Phone number"></td>
+    </tr>
+    
+    <tr>
+    <td><label for="country">Country</label></td>
+    <td><select id="country" name="country">
+        <option value="sri">Sri Lanka</option>
+        <option value="swiss">Switzerland</option>
+        <option value="ausi">Australia</option>
+        <option value="nz">Newzeland</option>
+        <option value="eng">England</option>
+        </select></td>
+    </tr>
+    
+    <tr>
+    <td><label for="model">Car Model</label></td>
+    <td><input type="text" id="model" name="model"></td>
+    </tr>
+    
+    <tr>
+        <td><label for="mfd">Manufacture<br>Year</label></td>
+        <td><select id="mfd" name="mfd">
+            <option value="default">Select Year</option>
+            <option value="15">2015</option>
+            <option value="16">2016</option>
+            <option value="17">2017</option>
+            <option value="18">2018</option>
+            </select></td>
+    </tr>
+    
+    <tr>
+    <td><label for="trans">Transmission</label></td>
+    <td><input type="radio" id="manual" name="trans">Manual
+        <input type="radio" id="auto" name="trans">Auto
+        </td>
+    </tr>
+    
+    <tr>
+    <td><label for="other">Other</label></td>
+    <td><textarea id="other" name="other" rows="3"></textarea></td>
+    </tr>
+    
+</table> 
+    
+    <input type="checkbox" id="terms" name="terms">I agree to the conditions and terms<br>
+    
+<table id="t2">
+    <tr>
+    <td><input type="button" id="submit" name="submit" value="Submit"></td>
+        <td>   &nbsp; &nbsp; &nbsp; &nbsp; </td>        
+    <td><input type="button" id="reset" name="reset" value="Reset"></td>
+    </tr>
+</table>
+    
+</fieldset>
+    
+</form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 2</title>
+      <style type="text/css">
+         section{
+          height: 95vh;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+        }
+        .container{
+          max-width: 700px;
+          width: 400px;
+          margin: 20px;
+          height: 80vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgb(23, 23, 63);
+          line-height: 43px;
+        }
+        tbody{
+          color: yellow;
+        }
+
+        .bottom1{
+          background-color: orange;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 20px;
+          height: 5vh;
+        }
+        .bottom2{
+          background-color: orange;
+          height: 7vh;
+          justify-content: center;
+          align-items: center;
+        }
+        input.Submit{
+          height: 5vh;
+          width:100px;
+
+        }
+        input.reset{
+          height: 5vh;
+          width:100px;
+        }
+        
+     </style>
+    </head>
+    <body>
+      <body background="wp.jpg" height="500px">
+      <section>
+        <div class="container">
+          <form action="index.html" method="post">
+            <div class="bottom1">
+              <table>
+                <tr>
+                  <td><a href="#" style="text-decoration: none; color: white;"><h4>Sign Up</h4></a></td>
+                 </tr>
+              </table>
+            </div>     
+      <table align="center">
+      <tbody>
+      
+      <tr>
+      <td><label for="fname">First Name</label></td>
+      <td><input id="fnmae" maxlength="50" name="name" type="text" placeholder="Enter First Name" /></td>
+      </tr>
+      
+      <tr>
+      <td><label for="lname">Last Name </label></td>
+      <td><input id="lname" maxlength="50" name="name" type="text"placeholder="Enter Last Name" /></td>
+      </tr>
+
+      <tr>
+        <td> <label> Date of Birth</label></td>
+        <td> <select>  
+          <option value = "0"> Date  
+          </option>  
+          <option value = "1">1  
+          </option>  
+          <option value = "2"> 2  
+          </option>  
+          <option value = "3"> 3  
+          </option>  
+          </select>  
+
+          <select>
+          <option value = "Month   "> Month   
+           </option>  
+          <option value = "January"> January   
+          </option>  
+          <option value = "February"> February   
+          </option>  
+          <option value = "March"> March  
+          </option>  
+          <option value = "April"> April  
+          </option>  
+          </select>  
+
+          <select>  
+          <option value = "2023"> Year   
+          </option>  
+          <option value = "2022"> 2023   
+          </option>  
+          <option value = "2021"> 2022  
+          </option>  
+          <option value = "2020"> 2021  
+          </option>  
+          </select>  </td>
+      </tr>
+
+      <tr>
+        <td><label for="gender">Gender</label></td>
+        <td><input type="radio" id="gender" name="gender" required>Female
+        <input type="radio" id="gender" name="gender" required>Male</td>
+        </tr>
+
+        <tr>
+          <td> <label for="country"> Country</label>  </td>
+          <td> <select>  
+            <option value = "0"> Country 
+            </option>  
+            <option value = "1">Sri Lanka  
+            </option>  
+            <option value = "2"> Russia  
+            </option>  
+            <option value = "3"> Ukraine  
+            </option>  
+            </select>
+        </td>
+        </tr>
+         
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input id="email" maxlength="50" name="email" type="text" placeholder="Enter Email"/></td>
+      </tr>
+
+      <tr>
+      <td><label for="mobile">Phone </label></td>
+      <td><input id="mobile" maxlength="50" name="course" type="text" placeholder="Enter Phone"/></td>
+      </tr>
+      
+      <tr>
+      <td> <label for="password">Password</label></td>
+      <td> <input type="password" id="pas" name="pw" required></td>
+      </tr>
+      
+      <tr>
+        <td> <label for="Cpassword">Confirm Password</label></td>
+        <td> <input type="password" id="pas" name="pw" required></td>
+        </tr>
+      
+        <tr>
+          <td>  </td>
+          <td> <input type="checkbox" name="agree" id="agree" required>
+            <label for="agree">I Agree to the Terms of use</label>
+           </td>
+        </tr>
+  
+      </table>  
+      <div class="bottom2">
+        <table>
+          <tr>
+            <td><input class="Submit" type="Submit" value="Submit" style="background-color: rgb(75, 223, 26); border-style: none; color: white"></td>
+            <td align="right"><input class="reset" type="Reset" value="Cancel" style="background-color: red;border-style: none; color: white"></td>
+            <td></td>
+           </tr>
+        </table>
+      </div>     
+        </div>
+
+      </section>
+    </body>
+</html>

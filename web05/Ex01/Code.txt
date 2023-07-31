@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title> Tutorial 05</title>
+    <style>
+    
+.container1{
+  position: absolute;
+  top: 20px;
+  right: 50%;
+  color:firebrick;
+  font-weight: bold;
+  font-size: 50px;
+  transform: translate(50%,50%);
+}
+.container2 {
+  position:absolute;
+  bottom: 30%;
+  background: rgb(250, 250, 250); 
+  background: rgba(255, 255, 255, 0.5); 
+  color: #f1f1f1;
+  width: 40%;
+  padding: 200px; 
+  transform: translate(25%,25%);
+  height: 10vh;  
+}
+.container2-1{
+  position: absolute;
+  top:10px;
+  right: 50%;
+  color:cornflowerblue;
+  font-weight: bold;
+  font-size: 50px;
+  transform: translate(50%,50%);
+}
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <img src="sunset.jpg" alt="Sunset" style="width:100%">
+        <div class="container1">Quotes For Life</div>
+        <div class="container2">
+            <div class="container2-1"> "You only live once,but if you do it right,once is enough"</div>
+        </div>
+      </div>
+
+</body>
+</html>

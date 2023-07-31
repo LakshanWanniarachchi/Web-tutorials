@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title> </title>
+
+    <script>
+      function Red() {
+        document.bgColor = "red";
+      }
+      function Green() {
+        document.bgColor = "Green";
+      }
+      function Blue() {
+        document.bgColor = "Blue";
+      }
+
+      function def() {
+        document.bgColor = "white";
+      }
+    </script>
+  </head>
+
+  <body>
+    <input
+      type="button"
+      name="red"
+      value="Red"
+      onmousemove="Red()"
+      onmouseout="def()"
+    />
+    <input
+      type="button"
+      name="red"
+      value="Green"
+      onmousemove="Green()"
+      onmouseout="def()"
+    />
+    <input
+      type="button"
+      name="red"
+      value="Blue"
+      onmousemove="Blue()"
+      onmouseout="def()"
+    />
+  </body>
+</html>

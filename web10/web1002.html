@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title> </title>
+
+    <script>
+      function check() {
+        if (document.f1.n1.value.length == 12) {
+          document.getElementById("year").innerHTML =
+            document.f1.n1.value.substring(0, 4);
+        } else if (document.f1.n1.value.length == 10) {
+          document.getElementById("year").innerHTML =
+            "19" + document.f1.n1.value.substring(0, 2);
+        } else {
+          window.alert("invalid Nic Nuber");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div style="display: inline-block">
+      <p>Birth Year is :</p>
+      <p id="year"></p>
+      <br />
+    </div>
+    <form name="f1">
+      NIC: <input type="text" name="n1" />
+      <input type="button" name="send" value="send" onclick="check()" />
+    </form>
+  </body>
+</html>

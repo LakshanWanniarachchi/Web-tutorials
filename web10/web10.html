@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title> </title>
+
+    <script>
+      function add() {
+        z = parseInt(prompt("Enter Number01", ""));
+        y = parseInt(prompt("Enter Number 02", ""));
+
+        answer = z + y;
+
+        document.getElementById("answer").innerHTML = answer;
+      }
+
+      function sub() {
+        z = parseInt(prompt("Enter Number01", ""));
+        y = parseInt(prompt("Enter Number 02", ""));
+
+        answer = z - y;
+
+        document.getElementById("answer").innerHTML = answer;
+      }
+
+      function mul() {
+        z = parseInt(prompt("Enter Number01", ""));
+        y = parseInt(prompt("Enter Number 02", ""));
+
+        answer = z * y;
+
+        document.getElementById("answer").innerHTML = answer;
+      }
+
+      function div() {
+        z = parseInt(prompt("Enter Number01", ""));
+        y = parseInt(prompt("Enter Number 02", ""));
+
+        answer = z / y;
+
+        document.getElementById("answer").innerHTML = answer;
+      }
+    </script>
+  </head>
+
+  <body>
+    <div style="display: inline-block">
+      <p>Anser is :</p>
+      <p id="answer"></p>
+      <br />
+    </div>
+
+    <input type="button" name="Cal" value="+" onclick="add()" />
+    <input type="button" name="Cal" value="-" onclick="sub()" />
+    <input type="button" name="Cal" value="*" onclick="mul()" />
+    <input type="button" name="Cal" value="/" onclick="div()" />
+  </body>
+</html>
